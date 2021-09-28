@@ -3,15 +3,16 @@
 /***********************
  * Essential Structure *
  ***********************/
-
 .flexsearch--wrapper {
-	height: 90px;
+	height: 80%;
 	width: 40%;
+  left: 28%;
+  top: 2%;
 	max-width: 60%;
 	overflow: hidden;
 	background: transparent;
 	margin: 0;
-	position: static;
+	position:absolute;
 }
 	
 .flexsearch--form {
