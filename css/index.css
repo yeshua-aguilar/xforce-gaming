@@ -75,3 +75,20 @@
     bottom: -42%;
     left: 51%;
 }
+.silla_gamer3{
+    position: absolute;
+    width: 21%;
+    height: 35%;
+    bottom: -34%;
+    left: 70%;
+}
+#text3{
+    position: absolute;
+    bottom: -40%;
+    left: 75%;
+}
+#boton3{
+    position: absolute;
+    bottom: -42%;
+    left: 78%;
+}
