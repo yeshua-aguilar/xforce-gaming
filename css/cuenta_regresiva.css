@@ -1,0 +1,11 @@
+#clock {
+  font-size: 3em;
+  text-align: center;
+  margin: 1em;
+}
+#clock{
+  position: absolute;
+  bottom: -30%;
+  left: 22%;
+  top: 75%;
+}
