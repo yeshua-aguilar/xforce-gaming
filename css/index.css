@@ -1,5 +1,22 @@
+/* PARTE DE CABEZERA DE LA WEB */
 .registrar--login {
     position:absolute;
     left: 80%;
     top: 5%;
+}
+
+.imagen_1{
+    width: 22%;
+    border-radius: 30%;
+}
+
+.logo{
+    position:absolute;
+    left: 10%;
+    top: 2%;
+}
+
+.banner1{
+    height: 48%;
+    position: absolute;
 }
