@@ -40,3 +40,38 @@
     height: 25%;
     bottom: 5%;
 }
+/* LOS PRODUCTOS */
+.silla_gamer1{
+    position: absolute;
+    bottom: -37%;
+    left: 10%;
+    width: 25%;
+    height: 38%;
+}
+#text1{
+    position: absolute;
+    bottom: -40%;
+    left: 15%;
+}
+#boton1{
+    position: absolute;
+    bottom: -42%;
+    left: 18%;
+}
+.silla_gamer2{
+    position: absolute;
+    width: 21%;
+    height: 35%;
+    bottom: -34%;
+    left: 43%;
+}
+#text2 {
+    position: absolute;
+    bottom: -40%;
+    left: 46%;
+}
+#boton2{
+    position: absolute;
+    bottom: -42%;
+    left: 51%;
+}
