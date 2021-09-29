@@ -20,3 +20,16 @@
     height: 48%;
     position: absolute;
 }
+.carrito{
+    width: 9%;
+}
+.carrito_1{
+    position:absolute;
+    left: 87%;
+    top:5%;
+}
+.c_escrito{
+    position: absolute;
+    left: 13%;
+    top: -50%;
+}
