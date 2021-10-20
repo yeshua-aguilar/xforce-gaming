@@ -30,4 +30,4 @@ const getRemainingTime = deadline => {
     }, 1000)
   };
   
-  countdown('October 20 2021 21:34:40 GMT-0500', 'clock', '¡Ya empezó!');
+  countdown('November 20 2021 21:34:40 GMT-0500', 'clock', '¡Ya empezó!');

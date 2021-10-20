@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/buscador.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/cuenta_regresiva.css">
+    <link rel="stylesheet" href="css/barra.css">
     <title>X-Force Gaming</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
   <img class="imagen_1" src="/img/logo x-force.png">
 </div>
 
-
+<!-- bara de navegador -->
     <div class="barra_buscador">
     <div class="flexsearch">
 		<div class="flexsearch--wrapper">
@@ -44,6 +45,7 @@
   <button>registrar</button>
   <button>login</button>
 </div>
+
 <!-- PARTE MEDIA DE LA WEB a --> 
 <img class="banner1" src="/img/banner.png" alt="banner_1">
 <br>
@@ -71,7 +73,66 @@
 <h2 id="text3">SILLA GAMER BIG</h2>
 <button id="boton3">COMPRAR</button>
 
+<!-- barra de navegacion -->
+<div class="navigation">
+  <ul>
+  <li class="list active">
+  <b></b>
+  <b></b>
+  <a href="#">
+  <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+  <span class="title">HOME</span>
+  </a>
+  </li>
+  
+  <li class="list">
+  <a href="#">
+  <span class="icon"><ion-icon name="hardware-chip-outline"></ion-icon></span>
+  <span class="title">PC</span>
+  </a>
+  </li>
+     
+  <li class="list">
+  <a href="#">
+  <span class="icon "><ion-icon name="game-controller-outline"></ion-icon></span>
+  <span class="title">CONSOLAS</span>
+  </a>
+  </li>
+     
+              
+  <li class="list">  
+  <a href="#">
+  <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+  <span class="title">CONTACTO</span>
+  </a>
+  </li>
+  
+  </ul>
+  
+  </div>
+  
+  <div class="toggle ">
+  <ion-icon name="menu-outline" class="open"></ion-icon>
+  <ion-icon name="close-outline" class="close"></ion-icon>
+  </div>
+
+
 
 <script src="js/clock.js"></script>
+<script src="js/portal.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script >
+  let List = document.querySelectorAll('.list');
+  for (let i=0; i<List.length; i++){
+      List[i].onclick= function(){
+       let j = 0;
+       while(j < List.length ){
+          List[j++].className = 'list';
+        }
+       List[i].className = 'list active';
+      }
+}
+</script>
 </body>
 </html>
