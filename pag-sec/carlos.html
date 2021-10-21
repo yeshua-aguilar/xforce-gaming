@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/carlos.css">
+    <title>Document</title>
+   
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+        <li class="list active">
+        <b></b>
+        <b></b>
+        <a href="/index.html">
+        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+        <span class="title">HOME</span>
+        </a>
+        </li>
+        
+        <li class="list">
+        <a href="#">
+        <span class="icon"><ion-icon name="hardware-chip-outline"></ion-icon></span>
+        <span class="title">PC</span>
+        </a>
+        </li>
+           
+        <li class="list">
+        <a href="">
+        <span class="icon "><ion-icon name="game-controller-outline"></ion-icon></span>
+        <span class="title">CONSOLAS</span>
+        </a>
+        </li>
+           
+                    
+        <li class="list">  
+        <a href="/pag-sec/carlos.html">
+        <span class="icon"><ion-icon name="basket-outline"></ion-icon></span>
+        <span class="title">VENDER</span>
+        </a>
+        </li>
+        
+
+        <li class="list">
+            <a href="/pag-sec/tienda2.html">
+            <span class="icon "><ion-icon name="bag-handle-outline"></ion-icon></span>
+            <span class="title">SEGUNDA</span>
+            </a>
+        </li>
+        
+        
+         
+        <li class="#">
+        <a href="">
+        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+        <span class="title">CONTACTO</span>
+        </a>
+        </li>
+        
+        </ul>
+        
+        </div>
+        
+        <div class="toggle ">
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+        </div>
+        
+        <script >
+            let List = document.querySelectorAll('.list');
+            for (let i=0; i<List.length; i++){
+                List[i].onclick= function(){
+                 let j = 0;
+                 while(j < List.length ){
+                    List[j++].className = 'list';
+                  }
+                 List[i].className = 'list active';
+                }
+         }
+        </script>
+        
+        
+    <div class="cajon"></div>
+    <div class="cajon2"></div>
+    <br><br><br><br><br><br><br><br><br><br>
+
+
+    <div class="caja1">
+    <h3>Nombre y Apellido</h3>
+<input type="text" class="cubo1" >
+</div>
+
+<div class="caja2">
+<h3>Dirección</h3>
+<input type="text" class="cubo2">
+</div>
+<div class="caja3">
+    <h3>Télefono </h3>
+    <input type="text" class="cubo3">
+</div>
+<div class="caja4">
+    <h3>DNI</h3>
+<input type="text" class="cubo4">
+</div>
+
+<div class="caja5">
+<h3>Fotos y Video del producto </h3>
+<textarea placeholder="Se recomienda que sea una Foto reciente del producto" class="cubofoto"></textarea>
+</div>
+
+<div class="caja6">
+<h3>Adjuntar Constancia de un técnico</h3>
+<textarea class="cuboconsta" placeholder="Adjuntar algunas prueba de que fue revisado por un algun tecnico la cual corrobore que estan en buen estado y esta listo para venderlo"></textarea>
+
+
+
+</div>
+
+<div class="division2">
+<div class="caja7">
+<h3>Nombre del Producto</h3>
+<input type="text" class="cubo5">
+</div>
+<div class="caja8">
+    <h3>Caracteristicas Destacada </h3>
+    <textarea class="cubocaract" placeholder="ejm:marca,que generacion,tiempo de uso..."></textarea>
+</div>
+<div class="caja9">
+        <a href="" >
+            <span class="icon"><ion-icon name="cart-outline"></ion-icon></span>
+            <span class="texto">ENVIAR</span>
+        </a>
+        
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="text/javascript" src="/js/portal.js"></script>
+    
+</body>
+</html>

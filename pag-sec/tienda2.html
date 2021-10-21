@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X - FORCE GAMING</title>
+
+    <link rel ="stylesheet" href="/css/tienda2.css"/>
+    <script src="/js/scrips34.js"></script>
+    <link rel="stylesheet" href="/css/barra.css">
+</head>
+<body>
+    <div class="pag-nav"> 
+        <!--<h1 style="text-align: center;">Segunda Tienda</h1>-->
+    </div>
+    <div class="pag-contenido">
+        <div class="producto-contenido">
+            <h3>Memoria Ram</h3>
+            <img src="/img/producto1.jpg" />
+            <h1>$49.99</h1>
+            <button class="boton-comprar">Comprar</button>
+        </div>
+
+        <div class="producto-contenido">
+            <h3>Ventiladores para PC</h3>
+            <img src="/img/producto2.jpg"/>
+            <h1>$29.99</h1>
+            <button class="boton-comprar">Comprar</button>
+        </div>
+
+        <div class="producto-contenido">
+            <h3>Audifonos Gamer</h3>
+            <img src="/img/producto3.jpg"/>
+            <h1>$59.99</h1>
+            <button class="boton-comprar">Comprar</button>
+        </div>
+
+        <div class="producto-contenido">
+            <h3>Mouse Gamer</h3>
+            <img src="/img/producto4.jpg"/>
+            <h1>$79.99</h1>
+            <button class="boton-comprar">Comprar</button>
+        </div>
+
+        <div class="producto-contenido">
+            <h3>Disco Solido</h3>
+            <img src="/img/producto5.jpg"/>
+            <h1>$99.99</h1>
+            <button class="boton-comprar">Comprar</button>
+        </div>
+
+        <div class="producto-contenido">
+            <h3>Case</h3>
+            <img src="/img/producto6.jpg"/>
+            <h1>$59.99</h1>
+            <button class="boton-comprar">Comprar</button>
+        </div>
+
+        <div class="producto-contenido">
+            <h3>Tareta de Video</h3>
+            <img src="/img/producto7.jpg"/>
+            <h1>$199.99</h1>
+            <button class="boton-comprar">Comprar</button>
+        </div>
+
+        <div class="producto-contenido">
+            <h3>Placa Madre</h3>
+            <img src="/img/producto8.jpg"/>
+            <h1>$99.99</h1>
+            <button class="boton-comprar">Comprar</button>
+        </div>
+
+    </div>
+    
+    <!-- BARRA DE NAVEGACION -->
+    <div class="navigation">
+        <ul>
+        <li class="list active">
+        <b></b>
+        <b></b>
+        <a href="/index.html">
+        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+        <span class="title">HOME</span>
+        </a>
+        </li>
+        
+        <li class="list">
+        <a href="#">
+        <span class="icon"><ion-icon name="hardware-chip-outline"></ion-icon></span>
+        <span class="title">PC</span>
+        </a>
+        </li>
+           
+        <li class="list">
+        <a href="#">
+        <span class="icon "><ion-icon name="game-controller-outline"></ion-icon></span>
+        <span class="title">CONSOLAS</span>
+        </a>
+        </li>
+      
+        <li class="list">
+          <a href="/pag-sec/carlos.html">
+          <span class="icon "><ion-icon name="basket-outline"></ion-icon></span>
+          <span class="title">VENDER</span>
+          </a>
+        </li>
+
+
+        <li class="list">
+            <a href="/pag-sec/tienda2.html">
+            <span class="icon "><ion-icon name="bag-handle-outline"></ion-icon></span>
+            <span class="title">SEGUNDA</span>
+            </a>
+        </li>
+           
+                    
+        <li class="list">  
+        <a href="#">
+        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+        <span class="title">CONTACTO</span>
+        </a>
+        </li>
+        
+        </ul>
+        
+        </div>
+        
+        <div class="toggle ">
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+        </div>
+      
+      
+      
+      <script src="/js/portal.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script >
+        let List = document.querySelectorAll('.list');
+        for (let i=0; i<List.length; i++){
+            List[i].onclick= function(){
+             let j = 0;
+             while(j < List.length ){
+                List[j++].className = 'list';
+              }
+             List[i].className = 'list active';
+            }
+      }
+      </script>
+    
+</body>
+</html>
