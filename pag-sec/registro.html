@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!--- esilos con css-->
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/registro.css">
+</head>
+<body>
+    <div class="di-log">
+        <div class="di-log-cont">
+
+                <div class="di-log-cont-img">  
+                    <div class="di-log-cont-img-cont">                
+                        <img src="/img/user.png" th:src="@{/img/user.png}"/>
+                    </div> 
+                </div>
+
+                <div class="di-log-cont-head"> 
+                    <h4>Crea tu cuenta</h4>
+                </div>
+                <div class="di-log-cont-head-mens"> 
+                    <h3>Accede a tus pedidos favoritos y recomendaciones</h3>
+                </div>
+
+                <div class="di-log-cont-body">
+                    <div class="di-log-cont-body-correo">
+                        <div class="di-log-cont-body-correo-img">
+                            <img src="/img/iconos/user.png" alt="icon-user">
+                        </div>
+                        <input type="text"  placeholder="Apellidos y nombres" autocomplete="off">
+                    </div>
+                    <div class="di-log-cont-body-correo">
+                        <div class="di-log-cont-body-correo-img">
+                            <img src="/img/iconos/carta.png" alt="icon-user">
+                        </div>
+                        <input type="text"  placeholder="Correo Electrónico" autocomplete="off">
+                    </div>
+                    <div class="di-log-cont-body-password">
+                        <div class="di-log-cont-body-password-img">
+                            <img src="/img/iconos/lock.png" alt="icon-lock">
+                        </div>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <div class="di-log-cont-body-correo">
+                        <div class="di-log-cont-body-correo-img">
+                            <img src="/img/iconos/DNI.png" alt="icon-user">
+                        </div>
+                        <input type="number"  placeholder="DNI" autocomplete="off">
+                    </div>
+                    <div class="di-log-cont-body-correo">
+                        <div class="di-log-cont-body-correo-img">
+                            <img src="/img/iconos/telefono.png" alt="icon-user">
+                        </div>
+                        <input type="number"  placeholder="Numero de celular" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="di-log-cont-foot">                  
+                    <div class="di-log-cont-body-terminos">
+                        <input type="checkbox" name="terms" id="terms">
+                        <span> Autorizo recibir avisos promocionales y autorizo el uso de mi información para <a href="">fines adicionales.</a></span>
+                    </div>
+                    <div class="di-log-cont-body-terminos">
+                        <input type="checkbox" name="terms" id="terms">
+                        <span> Declaro que he leído y acepto la nueva <a href=""> Política de Privacidad y los Terminos y Condiciones de X Force Gaming.</a></span>
+                    </div>
+                    <div class="di-log-cont-body-ingreso">                  
+                        <button>                         
+                            <div class="di-log-cont-body-ingreso-i">
+                                <i class="fas fa-sign-in-alt"></i>
+                                <p>Registro</p>
+                            </div>
+                        </button>
+                    </div>
+                  
+                </div>
+  
+        </div>
+
+        <div class="di-reg-facial">
+            <h3>aqui va el reconocimiento facial</h3>
+        </div>
+    </div>
+
+
+    <!-- SDK FIREBASE -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+  <!-- Don't change the format for any other products. -->
+  <!-- etc. -->
+
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      // YOUR FIREBASE CREDENTIALS HERE 
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    const fs = firebase.firestore();
+  </script>
+    
+    <script src="/js/main.js"></script>
+
+</body>
+</html>
+
+

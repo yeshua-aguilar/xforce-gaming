@@ -1,0 +1,219 @@
+/**propiedades*/
+:root{
+    --perfil-redondo:130px;
+    --iconos-login:20px;
+    --boton-login-color:#dee042;;
+}
+
+/*--login-----------------------------------------------------------------------------------------------------------------------------*/
+.di-log{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.di-log-cont{
+    background-color: #68e249;
+    border-radius: 5px;
+    padding: 0px 0px 10px 0px;
+    width: 450px;
+}
+
+.di-log-cont-img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.di-log-cont-img-cont{
+    position: relative;
+    bottom: 65px;
+    height: 75px;
+    
+}
+
+.di-log-cont-img img{
+    border-radius: var(--perfil-redondo);
+    width: var(--perfil-redondo);
+    height: var(--perfil-redondo);
+}
+/*parte de arriba de login*/
+.di-log-cont-head{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 23px;
+    color: white;
+    width: 100%;
+}
+/*parte de centro de login*/
+.di-log-cont-body{
+    padding: 10px;
+    width: 100%;
+}
+
+.di-log-cont-body-correo{
+    background-color: white;  
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.di-log-cont-body-correo:focus-within{
+    border: 2px solid green;
+}
+
+.di-log-cont-body-correo input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 90%;
+}
+.di-log-cont-body-correo-img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 10%;
+}
+.di-log-cont-body-correo-img img{
+    width: var(--iconos-login);
+    height: var(--iconos-login);
+}
+
+
+.di-log-cont-body-password{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.di-log-cont-body-password:focus-within{
+    border: 2px solid green;
+}
+
+
+.di-log-cont-body-password input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.di-log-cont-body-password-img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 10%;
+}
+.di-log-cont-body-password-img img{
+    width: var(--iconos-login);
+    height: var(--iconos-login);
+}
+
+
+/*parte de abajo de login*/
+.di-log-cont-foot{
+    padding: 10px;
+    width: 100%;
+}
+
+/*boton login*/
+
+.di-log-cont-foot .di-log-cont-body-ingreso{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.di-log-cont-foot .di-log-cont-body-ingreso button{
+    background-color: var(--boton-login-color);
+    border: none;
+    border: 2px solid var(--boton-login-color);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 80%;
+}
+
+.di-log-cont-foot .di-log-cont-body-ingreso button:hover{
+    background-color: transparent;
+    color: var(--boton-login-color);
+}
+.di-log-cont-foot .di-log-cont-body-ingreso button .di-log-cont-body-ingreso-i{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.di-log-cont-foot .di-log-cont-body-ingreso button .di-log-cont-body-ingreso-i p{
+    margin-left: 5px;
+}
+/*boton recuperar*/
+
+.di-log-cont-foot .di-log-cont-body-recuperar{
+    border-top: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 80%;
+}
+
+.di-log-cont-foot .di-log-cont-body-recuperar a{
+    text-decoration: none;
+    color: white;
+}
+
+.di-log-cont-foot .di-log-cont-body-recuperar a:hover{
+    color: #dee042;
+}
+
+/*a registro*/
+
+.di-log-cont-foot .di-log-cont-body-registro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.di-log-cont-foot .di-log-cont-body-registro a{
+    background-color: #0000ff;
+    border: none;
+    border: 2px solid #0000ff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 50%;
+}
+
+.di-log-cont-foot .di-log-cont-body-registro a span{
+    margin-left: 5px;
+}
+
+.di-log-cont-foot .di-log-cont-body-registro a:hover{
+    background-color: transparent;
+    color: #0000ff;;
+}
