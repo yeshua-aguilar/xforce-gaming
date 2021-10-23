@@ -1,0 +1,77 @@
+/* PARTE DE CABEZERA DE LA WEB */
+.registrar--login {
+    position:absolute;
+    left: 80%;
+    top: 5%;
+}
+
+.imagen_1{
+    width: 22%;
+    border-radius: 30%;
+}
+
+.logo{
+    position:absolute;
+    left: 10%;
+    top: 2%;
+}
+.carrito{
+    width: 9%;
+}
+.carrito_1{
+    position:absolute;
+    left: 87%;
+    top:5%;
+}
+.c_escrito{
+    position: absolute;
+    left: 13%;
+    top: -50%;
+}
+/* PARTE MEDIA DE LA WEB */
+.banner1{
+    height: 45%;
+    width: 99%;
+    position: absolute;
+}
+.banner2 {
+    position: absolute;
+    width: 99%;
+    height: 25%;
+    bottom: 5%;
+}
+/* LOS PRODUCTOS */
+.contenedor1{
+    padding-left: 10%;
+    margin-top: 35%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contenedor2{
+    padding-left: 10%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.pcd{
+    margin-top: -11%;
+}
+.pct{
+    margin-bottom: -8%;
+}
+.info{
+    padding-top: 8%;
+}
+.contenedor3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20%;
+}
+
+.precio{
+    color: rgb(218, 23, 23);
+}
+.info{
+    font-family:sans-serif;
+    color: lightslategrey;
+}
